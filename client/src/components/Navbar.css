@@ -1,0 +1,63 @@
+.nav-block{
+    background: #ffe28f;
+    height: 60px;
+    padding-top: 13px;
+}
+.content{
+    min-width: 1440px; 
+    width: 1440px; 
+    height: max-content;
+    margin: 0 auto;
+}
+.nav-logo{
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+.inpt{
+    float: left;
+    width: 400px;
+    padding: 6px 12px;
+    border: 1px solid #0e9e76;
+    border-radius: 16px;
+    outline:none;
+}
+.add-user-block{
+    height: 80px;
+  }
+.user-btn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    padding: 10px 35px;
+    color: teal;
+    background: ghostwhite;
+    border: 1px solid;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  .input-edit{
+    width: 550px !important;
+    border: 1px solid #0ca06a !important;
+  }
+  .user-btn:hover{
+    background: rgb(184, 184, 184);
+  }
+  .add_user_content h3, .Edit-h{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.2em;
+    color: #198ada;
+  }
+  .add-area-text{
+    float: left;
+    font-size: 16px;
+    padding: 10px 30px 10px 5px;
+    width: 100px;
+  }

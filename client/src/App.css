@@ -1,0 +1,11 @@
+.a-edit{
+    font-size: 16px;
+    color: darkcyan;
+    background: floralwhite;
+    border: 1px solid darkcyan;
+}
+.a-edit:hover{
+    color: floralwhite;
+    background: darkcyan;
+    border: 1px solid darkcyan;
+}

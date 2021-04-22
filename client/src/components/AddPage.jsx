@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import {BrowserRouter, Switch} from 'react-router-dom';
 import axios from 'axios';
+import { useHistory } from 'react-router-dom';
 
 const AddPage = () => {
     const [form, setForm] = useState({
@@ -10,6 +11,8 @@ const AddPage = () => {
         city: '', 
         phone: ''      
     });
+    const history = useHistory();
+
 
     const changeHandler = (event) => {
         setForm({...form, [event.target.name]: event.target.value})
@@ -26,7 +29,10 @@ const AddPage = () => {
             .then(response => console.log(response));
         }catch (error){
             console.log(error);
+            alert('Ошибка при добавлении пользователя')
         }
+        history.push("/");
+        window.location.reload();
     }
 
     return (

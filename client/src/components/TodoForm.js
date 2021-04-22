@@ -32,13 +32,13 @@ export const TodoForm = ({ todo, onSubmit }) => {
                     </div>
                     <div className='form-group'>
                         <label htmlFor='city'>
-                            age:
+                            city:
                         </label>
                         <input {...register("city")} className='form-control input-edit' type='text' name='city' id='city' />
                     </div>
                     <div className='form-group'>
                         <label htmlFor='phone'>
-                            age:
+                            phone:
                         </label>
                         <input {...register("phone")} className='form-control input-edit' type='Number' name='phone' id='phone' />
                     </div>
